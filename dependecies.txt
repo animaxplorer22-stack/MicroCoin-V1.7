@@ -1,0 +1,15 @@
+//for node code
+pip install websockets cryptography requests stripe flask
+
+//for PC_Miner
+pip install websockets cryptography
+
+//For phone miner-android(temux)
+pkg install python
+pip install websockets cryptography
+
+//For Phone_miner-iphone(A-Shell)
+pip install websockets cryptography
+
+//for wifi bridge
+pip install pyserial websockets
