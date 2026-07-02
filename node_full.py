@@ -1,33 +1,6 @@
 #!/usr/bin/env python3
-"""
-MICROCORE (MCX) COMPLETE NODE v21.6 — MAINNET READY (NO STRIPE)
-10 Levels | 1,000 MCX per level | Separate Pools per Level
-Gossip Discovery | Peer Caching | No DNS Required
-Block Reward: 3 MCX | Total Cap: ~546.84M MCX
-Temporary + Permanent Towers | 2.5s Signing Window | 10 Validators per Block
-BLOCK REDISTRIBUTION: Inactive level blocks go to level with most miners
-GLOBAL REWARD POOLS: Node, Uptime, LP, Buyer rewards from ALL blocks
-CRYPTO PAYMENTS: BTC, ETH, USDC, DUCO with blockchain verification
-BUYER REWARDS: Top 10 monthly (5000,3000,2000,1000,1000,500x5)
-RATE LIMITING: WebSocket connection protection
-AUTO-RECONNECT: WebSocket auto-reconnect with exponential backoff
-HEALTH CHECKS: Built-in monitoring endpoints
 
-*** FIXED IN v21.6 ***
-- COMPLETELY REMOVED all Stripe code
-- No environment variables required
-- ALL fees paid in MCX
-- Full DEX with THORChain/LI.FI
-- Full DUCO TXID verification
-- Full BTC/ETH/USDC payment verification
-- Buyer rewards system
-- 10-level system with Permanent Towers
-- Ready to run immediately
 
-Usage:
-  python3 node_full.py --genesis --username YOUR_NAME
-  python3 node_full.py --peer IP:PORT --username YOUR_NAME
-"""
 
 import asyncio
 import json
